@@ -12,7 +12,7 @@ public interface MoviesRepository extends JpaRepository<Movies, Long> {
 
     Optional<Movies> findByUserIdAndTitle(Long userId, String title);
     
-    @Query(value = "SELECT title from (SELECT avg(rating) as rating, title FROM movie_rating group by title order by rating desc limit 10) toptitles limit 10", 
+    @Query(value = "SELECT title from (SELECT avg(rating) as rating, title FROM movies group by title order by rating desc limit 10) toptitles limit 10", 
     		  nativeQuery = true)
     List<String> findTop10ByAvgRatingByTitleDesc();
 }

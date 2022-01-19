@@ -1,0 +1,9 @@
+com\backbase\simplemoviesservice\MoviesServiceApplicationTests.class
+com\backbase\simplemoviesservice\service\MoviesServiceTest.class
+com\backbase\simplemoviesservice\controller\MoviesControllerTest.class
+com\backbase\simplemoviesservice\jpa\PersonRepositoryTest.class
+com\backbase\simplemoviesservice\controller\PersonControllerTest.class
+com\backbase\simplemoviesservice\jpa\MoviesRepositoryTest.class
+com\backbase\simplemoviesservice\service\AcademyAwardServiceTest.class
+com\backbase\simplemoviesservice\service\PersonServiceTest.class
+com\backbase\simplemoviesservice\controller\TokenControllerTest.class
